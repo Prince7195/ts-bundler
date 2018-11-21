@@ -1,0 +1,21 @@
+{
+  "name": "ts-bundler",
+  "version": "1.0.0",
+  "description": "To Bundle all ts files to single file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Vijay Deepak",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0",
+    "requirejs": "^2.3.6",
+    "ts-loader": "^5.3.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
